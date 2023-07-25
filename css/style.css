@@ -69,7 +69,7 @@ body{
     width: 1296px;
     margin: 0 auto;
 }
-/* 單樣式表 */
+/* 共用 */
 .d-f{
     display: flex;
 }
@@ -97,6 +97,39 @@ body{
 .jc-fe{
     justify-content: flex-end;
 }
+.h2TitleW{
+    color: #FFFFFF;
+    font-size: 64px;
+}
+.h2TitleB{
+    color: #000;
+    font-size: 64px;
+}
+.mTextW{
+    color: #FFFFFF;
+    font-size: 24px;
+}
+.mTextB{
+    color: #000;
+    font-size: 24px;
+}
+.sTextW{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.sTextB{
+    color: #000;
+    font-size: 16px;
+}
+.mt-36{
+    margin-top: 36px;
+}
+.mb-32{
+    margin-bottom: 32px;
+}
+.fw-w{
+    flex-wrap: wrap;
+}
 /* 導航列 */
 .menu{
     background: #000;
@@ -122,8 +155,6 @@ body{
     width: 636px;
 }
 .bannerText-content h2{
-    color: #FFFFFF;
-    font-size: 64px;
     flex-wrap: wrap;
 }
 .bannerText-content .name{
@@ -149,9 +180,32 @@ body{
 .btn-content{
     display: flex;
     justify-content: flex-end;
+    color: #000;
 }
 .bannerText .btn p{
     font-size: 16px;
     margin-right: 4px;
 }
 /* introduction */
+.introduction{
+    height: 920px;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+}
+.introduction .container{
+    height: 920px;
+}
+.introductionText{
+    width: 526px;
+}
+/* about me */
+.aboutMe{
+    height: 740px;
+}
+.card{
+    width: 636px;
+    border: 1px solid #000;
+}
+.content{
+    width: 526px;
+    border: 1px solid #000;
+}
