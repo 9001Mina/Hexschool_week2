@@ -76,6 +76,12 @@ body{
 .jc-sb{
     justify-content: space-between;
 }
+.jc-fe{
+    justify-content: flex-end;
+}
+.jc-c{
+    justify-content: center;
+}
 .pt-40{
     padding-top: 40px;
 }
@@ -94,9 +100,7 @@ body{
 .ai-c{
     align-items: center;
 }
-.jc-fe{
-    justify-content: flex-end;
-}
+
 .h2TitleW{
     color: #FFFFFF;
     font-size: 64px;
@@ -124,14 +128,44 @@ body{
 .mt-36{
     margin-top: 36px;
 }
+.mb-4{
+    margin-bottom: 4px;
+}
+.mb-24{
+    margin-bottom: 24px;
+}
 .mb-32{
     margin-bottom: 32px;
+}
+.mb-36{
+    margin-bottom: 36px;
+}
+.ml-16{
+    margin-left: 16px;
+}
+.ml-20{
+    margin-left: 20px;
 }
 .mr-16{
     margin-right: 16px;
 }
+.mr-20{
+    margin-right: 20px;
+}
+.mr-24{
+    margin-right: 24px;
+}
 .fw-w{
     flex-wrap: wrap;
+}
+.textColorW{
+    color: #FFFFFF;
+}
+.textColorB{
+    color: #000;
+}
+.btnBg:hover{
+    background: yellow;
 }
 /* 導航列 */
 .menu{
@@ -180,6 +214,9 @@ body{
     background-color: #FFFFFF;
     text-align: center;
 }
+.bannerText .btn:hover{
+    background-color: gray;
+}
 .btn-content{
     display: flex;
     justify-content: flex-end;
@@ -204,11 +241,65 @@ body{
 .aboutMe{
     height: 740px;
 }
-.card{
+.aboutCard{
     width: 636px;
-    border: 1px solid #000;
 }
-.content{
+.aboutContent{
     width: 526px;
-    border: 1px solid #000;
+}
+.card-item{
+    width: 306px;
+    border: 1px solid #E3E3E3;
+}
+.cardText{
+    margin: 16px;
+}
+.h3Text{
+    font-size: 20px;
+}
+/* contact me */
+.contactMe{
+    height: 354px;
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+.contactTextImg{
+    width: 100px;
+}
+.icon{
+    width: 162px;
+    height: 162px;
+    flex-shrink: 0;
+}
+.icon:hover{
+    box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
+    border-radius: 40px;
+}
+/* project */
+.project{
+    height: 962px;
+}
+.projectContent{
+    width: 746px;
+    margin-left: auto;
+}
+.projectText{
+    width: 636px;
+    height: 196px;
+}
+.projectBtn{
+    width: 185px;
+    height: 48px;
+    top: 148px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 32px;
+    gap: 4px;
+    background: #000;
+}
+.projectBtn:hover{
+    background: gray;
+}
+/* footer */
+.footer{
+    height: 104px;
+    background: #000;
 }
